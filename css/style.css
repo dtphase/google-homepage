@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#top-nav {
+    display: flex;
+    float: right;
+    min-width: 182px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#top-nav ul li {
+    list-style-type:none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#top-nav a, #top-nav a:visited {
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+}
+
+#top-nav a:hover {
+    text-decoration: underline;
+}
+
+#google-apps {
+    display: inline-block;
+    background-image: url('../img/google-icon-sheet.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+}
+
+#profile-picture {
+    background-image: url('../img/dtphase-tiny-icon.jpg');
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    border-radius: 50%;
+}
